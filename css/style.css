@@ -17,10 +17,16 @@ p {
 
 img {
   vertical-align: bottom;
+  margin: 0;
 }
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
   margin: 0;
   padding: 0;
 }
@@ -93,11 +99,10 @@ header img {
 
 .banner li {
   width: calc(100% - 32px);
-  text-align: center;
+  /* text-align: center; */
 }
 
 .banner img {
-  /* width: 150px; */
   width: 80%;
   margin: 10px 0;
 }

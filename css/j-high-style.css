@@ -1,0 +1,168 @@
+/* common */
+
+body {
+  margin: 0;
+  font-family: 游明朝;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  vertical-align: bottom;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity .3s;
+}
+
+a:hover {
+  opacity: .5
+}
+
+.container {
+  margin: 0 8px;
+}
+
+/* header */
+
+header {
+  background: skyblue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header .container {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header i {
+  font-size: 24px;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+/* hero */
+
+#hero img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+#hero h1 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 32px;
+  color: #00479e;
+  border-bottom: 1px solid skyblue;
+}
+
+/* news */
+
+#news {
+  background: pink;
+  height: 500px;
+}
+
+#news h2 {
+  color: black
+}
+
+/* course */
+
+#course {
+  background: skyblue;
+  height: 500px;
+}
+
+#course h2 {
+  color: black
+}
+
+/* map */
+
+#map {
+  background: pink;
+  height: 500px;
+}
+
+#map h2 {
+  color: black
+}
+
+/* career */
+
+#career {
+  background: skyblue;
+  height: 500px;
+}
+
+#career h2 {
+  color: black
+}
+
+/* footer */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer ul {
+  display: flex;
+}
+footer li {
+  width: 50%;
+  text-align: center;
+  padding: 12px;
+  gap: 10px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+}
+
+footer i {
+  font-size: 20px;
+}
+
+footer .footer-left {
+  background: #008dce;
+}
+
+footer .footer-right {
+  background: #00479e;
+}
